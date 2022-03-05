@@ -113,3 +113,48 @@ console.log('primeiroIemNoArray2',primeiroIemNoArray2)
 console.log('segundoIemNoArray2',segundoIemNoArray2)
 console.log('terceiroIemNoArray2',terceiroIemNoArray2)
 
+console.log('\n\n\n------------------------------------------\n\n\n')
+
+console.log('JSON - JAVASCRIPT OBJECT NOTAION')
+
+//criando um objeto já com dados
+
+const user ={
+  name: 'felipe',
+  age: 26 ,
+}
+
+//mas ainda podemos  atribuir valo posteriormente
+user.lastname = 'Ribeiro'
+//o objeto é mutavel , então podemos criar/altera/deletar propriedades e valores
+user.lasname = 'o ribeio'
+user.age = user.age + 27
+console.log('user', user)
+
+//criando um objeto json vazio e atribuindo valores posteriormene
+const user2 = {}
+user2.name = 'felipe'
+user2.age = 26
+user2.lastname = 'Ribeiro'
+console.log('user2' , user2)
+
+// criando um objeo vazio atavez da classe "Object"
+
+const user3 = new Object()
+user3.name = 'felipe'
+user3.age = 26
+user3.lastname = 'Ribeiro'
+console.log('user3' , user3)
+
+//o valor do user 1 coninua o mesmo pois nada tem a ver com as outras coisas
+console.log('user', user)
+
+// podemos pegar o valor de uma propriedade e atribuir em uma variavel
+const nameFrowUser = user.name
+console.log('nameFromUser' , nameFrowUser)
+
+
+
+
+
+
