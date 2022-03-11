@@ -68,3 +68,44 @@ const soma2 = somar(2, 4)
 console.log('somar2"somar(2,4)', soma2)
 console.log('somar(2,4)', somar(2, 4))
 console.log('somar(somar(2,5),10)', somar(somar(2, 5), 10))
+
+/**
+ *função que ficar responsavel por realizar a subtração de dois parametros
+ * @param {number} a um valor numerico
+ * @param {number} b segundo valor numerico
+ * @returns { number} retorna o valor da subtração dos valores passados
+ */
+function subtrair(a,b){
+  return a - b
+}
+
+//exemplo
+const subtracao1 = subtrair(123 ,23)
+console.log('subtrair(123 ,23)',subtracao1)
+
+/**
+ *
+ * @param {number} a  um valor numerico
+ * @param {number} b  segundo valor numerico
+ * @returns {number} resultado da multiplicação dos dosi numeros recebidos
+ */
+function multiplicao (a,b){
+  return a * b
+}
+//exemplo
+
+const multiplicacao = multiplicao(10 ,5)
+console.log('multiplicao(10 ,5)',multiplicacao)
+
+/**
+ *
+ * @param {number} a recebe um valor numerico
+ * @param {number} b recebe segundo valor numerico
+ * @returns {number} valor da divisão entre os numeros
+ */
+function divisao(a,b){
+  return a / b
+}
+console.log('divisao(a,b)', divisao(10,5))
+
+
